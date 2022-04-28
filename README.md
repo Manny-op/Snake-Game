@@ -16,9 +16,5 @@ In order to contribute, please follow these guidlines
 4. Test on your own fork. 
 5. Submit a pull request afterwards.
 
-## Issues
-- Have a score that is shown at the top of screen
-- When snake reaches edge, have it loop to the other side of screen
-- Create a menu at start 
-- When snake dies, allow for replay
-- Let player use custom colors
+## To run
+- use the run.sh script within terminal once the JDK is installed
