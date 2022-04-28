@@ -3,7 +3,7 @@ Repository for a open-source version of the Snake computer game. This is all pro
 
 ## Set Up:
 [Java Development Kit](https://java.com/en/download/help/develop.html)
-[VS Code] (https://code.visualstudio.com/)
+[VS Code](https://code.visualstudio.com/)
 or
 [Atom](https://atom.io/)
 
