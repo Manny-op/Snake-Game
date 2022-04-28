@@ -17,4 +17,4 @@ In order to contribute, please follow these guidlines
 5. Submit a pull request afterwards.
 
 ## To run
-- use the run.sh script within terminal once the JDK is installed
+- Use the run.sh script within terminal once the JDK is installed
