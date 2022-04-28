@@ -2,10 +2,10 @@
 Repository for a open-source version of the Snake computer game. This is all programmed using the Java programming language.
 
 ## Set Up:
-[Java Development Kit](https://java.com/en/download/help/develop.html)
-[VS Code](https://code.visualstudio.com/)
-or
-[Atom](https://atom.io/)
+- [Java Development Kit](https://java.com/en/download/help/develop.html)
+- [VS Code](https://code.visualstudio.com/) 
+### or
+- [Atom](https://atom.io/) 
 
 ## Contributing
 
