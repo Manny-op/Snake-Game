@@ -122,6 +122,7 @@ public class Board extends JPanel implements ActionListener{
         } else {
 
             gameOver(g);
+            restart(g);
         }
     }
 
@@ -134,6 +135,17 @@ public class Board extends JPanel implements ActionListener{
         g.setColor(Color.white);
         g.setFont(small);
         g.drawString(msg, (B_WIDTH - metr.stringWidth(msg)) / 2, B_HEIGHT / 2);
+    }
+
+    private void restart(Graphics g) {
+
+        String msg = "Press Enter to restart";
+        Font small = new Font("Helvetica", Font.BOLD, 14);
+        FontMetrics metr = getFontMetrics(small);
+
+        g.setColor(Color.white);
+        g.setFont(small);
+        g.drawString(msg, (B_WIDTH - metr.stringWidth(msg)) / 2, (B_HEIGHT / 2) + 30);
     }
 
     private void checkApple() {
@@ -250,6 +262,10 @@ public class Board extends JPanel implements ActionListener{
                 downDirection = true;
                 rightDirection = false;
                 leftDirection = false;
+            }
+            if ((key == KeyEvent.VK_ENTER) && !inGame){
+                inGame = true;
+                initBoard(); 
             }
         }
     }
